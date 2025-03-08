@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sliding Login & Registration Form</title>
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 class="heading">Welcome to My Website</h1>
+      <h3 class="title">Sliding Login & Registration Form</h3>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <!-- Form container -->
+        <div class="container">
+          <div class="switcher">
+            <div class="slider"></div>
+            <button
+              class="toggle-btn login-btn active"
+              onclick="toggleForm('login')"
+            >
+              Login
+            </button>
+            <button
+              class="toggle-btn signup-btn"
+              onclick="toggleForm('signup')"
+            >
+              Signup
+            </button>
+          </div>
+
+          <!-- Forms -->
+          <div class="form-section">
+            <!-- Login Form -->
+            <div class="form-box login-box active">
+              <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input
+                  type="email"
+                  class="email ele"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <div class="input-container">
+                <i class="fa fa-lock icon"></i>
+                <input
+                  type="password"
+                  class="password ele"
+                  placeholder="Password"
+                />
+              </div>
+
+              <button class="clkbtn">Login</button>
+            </div>
+
+            <!-- Signup Form -->
+            <div class="form-box signup-box">
+              <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input
+                  type="text"
+                  class="name ele"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+
+              <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input
+                  type="email"
+                  class="email ele"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <div class="input-container">
+                <i class="fa fa-lock icon"></i>
+                <input
+                  type="password"
+                  class="password ele"
+                  placeholder="Password"
+                />
+              </div>
+
+              <div class="input-container">
+                <i class="fa fa-lock icon"></i>
+                <input
+                  type="password"
+                  class="password ele"
+                  placeholder="Confirm Password"
+                />
+              </div>
+
+              <button class="clkbtn">Signup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
