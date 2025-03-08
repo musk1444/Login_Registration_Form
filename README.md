@@ -4,8 +4,11 @@ This is a responsive Login &amp; Registration form with a smooth sliding transit
 
 Features:
 ✅ Smooth sliding transition between login & signup
+
 ✅ Font Awesome icons for better form visuals
+
 ✅ Fully responsive design for all screen sizes
+
 ✅ Clean and user-friendly interface with intuitive toggling
 
 Ideal for authentication pages, this project offers a modern and engaging user experience.
